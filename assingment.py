@@ -1,11 +1,11 @@
 dish_1_name = str(input("enter your first dish :"))
-dish_1_price = float(input("enter the first dish price"))
+dish_1_price = float(input("enter the first dish price :"))
 dish_1_quantity = int(input("enter the first dish quantity :"))
 dish_2_name = str(input("enter your second dish :"))
-dish_2_price = float(input("enter your second dish price "))
+dish_2_price = float(input("enter your second dish price :  "))
 dish_2_quantity = int(input("enter the second dish quantity :"))
 dish_3_name =  str(input("enter your third dish :"))
-dish_3_price = float(input(" enter the third dish price"))
+dish_3_price = float(input(" enter the third dish price :"))
 dish_3_quantity = int(input("enter the third dish quantity :"))
 item1_total = dish_1_price * dish_1_quantity
 item2_total = dish_2_price * dish_2_quantity
@@ -58,4 +58,5 @@ print(f"Delivery Fee: {delivery_fee:.2f} ")
 print(f"==============================")
 print(f"FINAL TOTAL: {final:.2f}")
 print(f"total_amount_saved {total_amount_saved:.2f}")
+
 print(f"==============================")
